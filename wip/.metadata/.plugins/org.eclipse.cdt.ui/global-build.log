@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project tev_001 ****
+
+make all 
+ld: library not found for -l/usr/local/lib
+Building target: tev_001
+Invoking: MacOS X C++ Linker
+g++ -L/usr/lib -o "tev_001"  ./src/tev_001.o   -l/usr/local/lib -l/usr/lib
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [tev_001] Error 1
+
+**** Build Finished ****

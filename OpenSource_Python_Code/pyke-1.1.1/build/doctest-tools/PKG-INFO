@@ -1,0 +1,35 @@
+Metadata-Version: 1.0
+Name: doctest-tools
+Version: 1.0a3
+Summary: Tools to run doctests on code and text files within a directory
+Home-page: http://code.google.com/p/doctest-tools
+Author: Bruce Frederiksen
+Author-email: dangyogi@gmail.com
+License: MIT License
+Download-URL: http://doctest-tools.googlecode.com/files/doctest-tools-1.0a3.zip
+Description: 
+        These are a small set of tools to make it easier to run doctest on your
+        source files and text files.
+        
+        There is a tool to run doctest on an individual file, and another tool
+        to run doctest on all files within a directory (recursively).  The
+        individual doctest runs are done in separate processes so that the
+        tests don't contaminate each other.
+        
+        Finally, there is a small module to set the python path of the program
+        calling it to make it easier to run the program from multiple clones of
+        the same project where it is impossible to set the python path to a
+        single location.
+        
+        These tools are written in Python so that they will run on all
+        platforms.
+        
+Keywords: doctest python unit test script
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
