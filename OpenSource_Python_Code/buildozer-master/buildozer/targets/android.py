@@ -305,7 +305,7 @@ class TargetAndroid(Target):
                     cwd=self.buildozer.platform_dir)
         elif self.platform_update:
             cmd('git clean -dxf', cwd=pa_dir)
-            cmd('git pull origin master', cwd=pa_dir)
+            cmd('git pull origin main', cwd=pa_dir)
 
         source = self.buildozer.config.getdefault('app', 'android.branch')
         if source:
