@@ -95,7 +95,7 @@ class TargetIos(Target):
                     cwd=self.buildozer.platform_dir)
         elif self.platform_update:
             cmd('git clean -dxf', cwd=ios_dir)
-            cmd('git pull origin master', cwd=ios_dir)
+            cmd('git pull origin main', cwd=ios_dir)
 
         self.fruitstrap_dir = fruitstrap_dir = join(self.buildozer.platform_dir,
                 'fruitstrap')

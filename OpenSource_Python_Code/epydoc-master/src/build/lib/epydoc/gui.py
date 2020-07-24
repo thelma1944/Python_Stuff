@@ -403,8 +403,8 @@ class EpydocGUI:
         self._canvas.bind('<Configure>', self._configure)
 
     def _init_messages(self, msgsframe, ctrlframe):
-        self._downImage = PhotoImage(master=self._root, data=DOWN_GIF)
-        self._upImage = PhotoImage(master=self._root, data=UP_GIF)
+        self._downImage = PhotoImage(main=self._root, data=DOWN_GIF)
+        self._upImage = PhotoImage(main=self._root, data=UP_GIF)
 
         # Set up the messages control frame
         b1 = Button(ctrlframe, text="Messages", justify='center',
@@ -476,8 +476,8 @@ class EpydocGUI:
         self._messages.tag_config('header', elide=elide_headers)
 
     def _init_options(self, optsframe, ctrlframe):
-        self._leftImage=PhotoImage(master=self._root, data=LEFT_GIF)
-        self._rightImage=PhotoImage(master=self._root, data=RIGHT_GIF)
+        self._leftImage=PhotoImage(main=self._root, data=LEFT_GIF)
+        self._rightImage=PhotoImage(main=self._root, data=RIGHT_GIF)
 
         # Set up the options control frame
         b1 = Button(ctrlframe, text="Options", justify='center',
